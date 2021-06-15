@@ -40,7 +40,6 @@ export const Form = ({ calculateResult, result }) => {
                             min="1"
                             step="0.01"
                             placeholder="Podaj wymaganą kwotę"
-                            autofocus
                         />
                     </label>
                 </p>
