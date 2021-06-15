@@ -23,7 +23,7 @@ export const Form = ({ calculateResult, result }) => {
                 </legend>
                 <p className="form__paragraph">
                     <strong>
-                        Pola oznaczone * muszą być wypełnione,
+                        Pola oznaczone * muszą być wypełnione,&nbsp;
                     </strong>
                     kursy z dnia 14.06.2021
                 </p>
