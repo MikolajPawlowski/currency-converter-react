@@ -6,8 +6,7 @@ Minimalistic app made for learning purpouses.<br>
 It converts PLN currency to USD, or into cryptocurrency BTC and Doge.
 
 <br>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-<br>
+
 ## Project Demo
 
 \>> https://mikolajpawlowski.github.io/currency-converter/ <<
@@ -27,3 +26,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <em>Contact: <pawlowskiem@gmail.com>
   </em>
+
+  This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
