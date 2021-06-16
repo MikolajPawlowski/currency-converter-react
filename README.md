@@ -14,14 +14,15 @@ It converts PLN currency to USD, or into cryptocurrency BTC and Doge.
 <br>
 <br>
 
->## Technologies used in project:
->
+## Technologies used in project:
+
 >- *HTML*
 >- *styling with CSS*
 >- *simple JavaScript interactions*
 >- *BEM naming methodology*
+>- *React App*
 
-![Gif Sample](https://github.com/MikolajPawlowski/currency-converter/blob/main/images/converter-gif.gif?raw=true "Gid Sample")
+![Gif Sample](https://github.com/MikolajPawlowski/currency-converter/blob/main/images/converter-gif.gif?raw=true "Gif Sample")
 
 <em>Contact: <pawlowskiem@gmail.com>
   </em>
