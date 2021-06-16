@@ -9,7 +9,7 @@ It converts PLN currency to USD, or into cryptocurrency BTC and Doge.
 
 ## Project Demo
 
-\>> https://mikolajpawlowski.github.io/currency-converter/ <<
+\>> https://mikolajpawlowski.github.io/currency-converter-react/ <<
 
 <br>
 <br>
