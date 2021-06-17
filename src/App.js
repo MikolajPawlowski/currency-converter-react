@@ -22,8 +22,8 @@ function App() {
     return (
         <div className="app">
             <Form
-            result={result}
-            calculateResult={calculateResult}
+                result={result}
+                calculateResult={calculateResult}
             />
         </div>
     );
