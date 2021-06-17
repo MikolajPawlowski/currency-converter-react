@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/currency-converter-react/static/css/main.4fa6f9e0.chunk.css",
-    "main.js": "/currency-converter-react/static/js/main.f2b80969.chunk.js",
-    "main.js.map": "/currency-converter-react/static/js/main.f2b80969.chunk.js.map",
-    "runtime-main.js": "/currency-converter-react/static/js/runtime-main.06cdb72b.js",
-    "runtime-main.js.map": "/currency-converter-react/static/js/runtime-main.06cdb72b.js.map",
-    "static/js/2.cf53f141.chunk.js": "/currency-converter-react/static/js/2.cf53f141.chunk.js",
-    "static/js/2.cf53f141.chunk.js.map": "/currency-converter-react/static/js/2.cf53f141.chunk.js.map",
-    "static/js/3.0afb47db.chunk.js": "/currency-converter-react/static/js/3.0afb47db.chunk.js",
-    "static/js/3.0afb47db.chunk.js.map": "/currency-converter-react/static/js/3.0afb47db.chunk.js.map",
+    "main.js": "/currency-converter-react/static/js/main.aa4e806c.chunk.js",
+    "main.js.map": "/currency-converter-react/static/js/main.aa4e806c.chunk.js.map",
+    "runtime-main.js": "/currency-converter-react/static/js/runtime-main.12e484a3.js",
+    "runtime-main.js.map": "/currency-converter-react/static/js/runtime-main.12e484a3.js.map",
+    "static/js/2.6cc6e09e.chunk.js": "/currency-converter-react/static/js/2.6cc6e09e.chunk.js",
+    "static/js/2.6cc6e09e.chunk.js.map": "/currency-converter-react/static/js/2.6cc6e09e.chunk.js.map",
+    "static/js/3.68d38598.chunk.js": "/currency-converter-react/static/js/3.68d38598.chunk.js",
+    "static/js/3.68d38598.chunk.js.map": "/currency-converter-react/static/js/3.68d38598.chunk.js.map",
     "index.html": "/currency-converter-react/index.html",
     "static/css/main.4fa6f9e0.chunk.css.map": "/currency-converter-react/static/css/main.4fa6f9e0.chunk.css.map",
-    "static/js/2.cf53f141.chunk.js.LICENSE.txt": "/currency-converter-react/static/js/2.cf53f141.chunk.js.LICENSE.txt",
+    "static/js/2.6cc6e09e.chunk.js.LICENSE.txt": "/currency-converter-react/static/js/2.6cc6e09e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/currency-converter-react/static/media/doge.d97dab9b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06cdb72b.js",
-    "static/js/2.cf53f141.chunk.js",
+    "static/js/runtime-main.12e484a3.js",
+    "static/js/2.6cc6e09e.chunk.js",
     "static/css/main.4fa6f9e0.chunk.css",
-    "static/js/main.f2b80969.chunk.js"
+    "static/js/main.aa4e806c.chunk.js"
   ]
 }
