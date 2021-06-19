@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
+import { Clock } from "./Clock";
 import "./style.css";
 
 export const Form = ({ calculateResult, result }) => {
@@ -17,6 +18,7 @@ export const Form = ({ calculateResult, result }) => {
             <h1 className="form__header">
                 Konwerter kursów walutowych
             </h1>
+            <Clock />
             <fieldset className="form__fieldset">
                 <legend className="form__legend">
                     Konwerter walut
