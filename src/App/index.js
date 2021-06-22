@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./App/style.css";
-import { Form } from "./App/Form";
-import { currencies } from "./App/currencies";
+import "./style.css";
+import { Form } from "./Form";
+import { currencies } from "./currencies";
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
             currency,
         });
     }
-
+    
     return (
         <div className="container">
             <Form
