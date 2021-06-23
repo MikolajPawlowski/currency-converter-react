@@ -3,7 +3,7 @@ import "./style.css";
 
 export const Clock = () => {
     const [currentDate, setCurrentDate] = useState(new Date());
-    const stringDate = currentDate.toLocaleDateString(
+    const dateString = currentDate.toLocaleDateString(
         undefined,
         {
             weekday: "long",
@@ -28,7 +28,7 @@ export const Clock = () => {
 
     return (
         <p className="clock">
-            Dziś jest {stringDate}
+            Dziś jest {dateString}
         </p>
     )
 };
