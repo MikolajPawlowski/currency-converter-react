@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./style.css";
+import { StyledContainer } from "./styled";
 import { Form } from "./Form";
 import { currencies } from "./currencies";
 
@@ -20,12 +20,12 @@ function App() {
     }
     
     return (
-        <div className="container">
+        <StyledContainer>
             <Form
                 result={result}
                 calculateResult={calculateResult}
             />
-        </div>
+        </StyledContainer>
     );
 }
 
