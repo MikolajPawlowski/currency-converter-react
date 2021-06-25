@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
 import "./style.css";
+import { useCurrentDate } from "./useCurrentDate";
 
 export const Clock = () => {
-    const [currentDate, setCurrentDate] = useState(new Date());
+    const currentDate = useCurrentDate();
     const dateString = currentDate.toLocaleDateString(
         undefined,
         {
@@ -13,18 +13,8 @@ export const Clock = () => {
             hour: "numeric",
             minute: "numeric",
             second: "numeric",
-        },
+        }
     );
-
-    useEffect(() => {
-        setInterval(() => {
-            setCurrentDate(new Date());
-        }, 1000);
-
-        return () => {
-            clearInterval(setCurrentDate);
-        };
-    }, []);
 
     return (
         <p className="clock">
