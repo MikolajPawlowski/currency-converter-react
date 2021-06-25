@@ -18,7 +18,7 @@ function App() {
             currency,
         });
     }
-    
+
     return (
         <StyledContainer>
             <Form
