@@ -2,7 +2,7 @@ import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
 import { Clock } from "./Clock";
-import "./style.css";
+import { StyledForm, Header, Fieldset, Legend, Field, Select, LabelText, Button, Paragraph, Label } from "./styled.js";
 
 export const Form = ({ calculateResult, result }) => {
     const [currency, setCurrency] = useState(currencies[0].short);
@@ -14,44 +14,42 @@ export const Form = ({ calculateResult, result }) => {
     }
 
     return (
-        <form className="form" onSubmit={onSubmit}>
-            <h1 className="form__header">
+        <StyledForm onSubmit={onSubmit}>
+            <Header>
                 Konwerter kursów walutowych
-            </h1>
+            </Header>
             <Clock />
-            <fieldset className="form__fieldset">
-                <legend className="form__legend">
+            <Fieldset>
+                <Legend>
                     Konwerter walut
-                </legend>
-                <p className="form__paragraph">
+                </Legend>
+                <Paragraph>
                     <strong>
                         Pola oznaczone * muszą być wypełnione,&nbsp;
                     </strong>
                     kursy z dnia 14.06.2021
-                </p>
-                <p className="form__paragraph">
-                    <label className="form__label">
-                        <span className="form__labelText">
+                </Paragraph>
+                <Paragraph>
+                    <Label>
+                        <LabelText>
                             Kwota w PLN*:
-                        </span>
-                        <input
+                        </LabelText>
+                        <Field
                             value={amount}
                             onChange={({ target }) => setAmount(target.value)}
-                            className="form__field"
                             required type="number"
                             min="1"
                             step="0.01"
                             placeholder="Podaj wymaganą kwotę"
                         />
-                    </label>
-                </p>
-                <p className="form__paragraph">
-                    <label className="form__label">
-                        <span className="form__labelText">
+                    </Label>
+                </Paragraph>
+                <Paragraph>
+                    <Label>
+                        <LabelText>
                             Konwertuję walutę na:
-                        </span>
-                        <select
-                            className="form__field"
+                        </LabelText>
+                        <Select
                             value={currency}
                             onChange={({ target }) => setCurrency(target.value)}
                         >
@@ -63,16 +61,16 @@ export const Form = ({ calculateResult, result }) => {
                                     {currency.name}
                                 </option>
                             )))}
-                        </select>
-                    </label>
-                </p>
-                <p>
-                    <button className="form__button">Hit me</button>
-                </p>
+                        </Select>
+                    </Label>
+                </Paragraph>
+                <Paragraph>
+                    <Button>Hit me</Button>
+                </Paragraph>
 
                 <Result result={result} />
-            </fieldset>
-        </form>
+            </Fieldset>
+        </StyledForm>
     );
 };
 

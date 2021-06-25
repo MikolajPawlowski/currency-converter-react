@@ -1,24 +1,26 @@
-.form {
+import styled from "styled-components";
+
+export const StyledForm = styled.form`
     max-width: 700px;
     margin: 0 auto;
-}
+`;
 
-.form__header {
+export const Header = styled.h1`
     text-align: center;
     color: rgb(223, 206, 206);
     text-shadow: 2px 2px 2px rgb(80, 79, 79);
-}
+`;
 
-.form__fieldset {
+export const Fieldset = styled.fieldset`
     background-color: rgba(0, 0, 0, 0.425);
     border: 2px solid #ccc;
     padding: 10px;
     border-radius: 40px;
     margin: 20px;
     box-shadow: -1px 1px 2px 0px beige;
-}
+`;
 
-.form__legend {
+export const Legend = styled.legend`
     background-color: rgba(0, 128, 128, 0.507);
     padding: 10px;
     border: 2px solid beige;
@@ -26,24 +28,45 @@
     font-size: 20px;
     box-shadow: -1px 1px 2px 0px beige;
     color: beige;
-}
+`;
 
-.form__field {
+export const Field = styled.input`
     border: 1px solid #ccc;
     padding: 10px;
     max-width: 300px;
     width: 100%;
     border-radius: 40px;
-}
 
-.form__labelText {
+    &:required {
+        border-color: 2px solid black;
+    }
+
+    &:invalid {
+        background-color: hsl(9, 100%, 90%);
+    }
+`;
+
+export const Select = styled.select`
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 40px;
+`;
+
+export const Label = styled.label`
+    margin: 10px 5px;
+    text-align: left;
+`;
+
+export const LabelText = styled.span`
     width: 100%;
     max-width: 200px;
     display: inline-block;
     margin-right: 5px;
-}
+`;
 
-.form__button {
+export const Button = styled.button`
     width: 100%;
     border: none;
     background-color: rgba(0, 128, 128, 0.507);
@@ -52,33 +75,16 @@
     border-radius: 5px;
     margin: 10px 0;
     font-size: 26px;
-}
 
-.form__button:hover {
-    background-color: hsl(180, 100%, 33%);
-}
+    &:hover {
+        background-color: hsl(180, 100%, 33%);
+    }
 
-.form__button:active {
-    background-color: hsl(180, 100%, 39%);
-}
+    &:active {
+        background-color: hsl(180, 100%, 39%);
+    }
+`;
 
-.form__field:required {
-    border-color: 2px solid black;
-}
-
-.form__field:invalid {
-    background-color: hsl(9, 100%, 90%);
-}
-
-.form__paragraph {
+export const Paragraph = styled.p`
     color: beige;
-}
-
-.form__paragraph--special {
-    font-weight: 700;
-    text-align: center;
-}
-
-.form__result {
-    font-size: 24px;
-}
+`;
