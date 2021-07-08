@@ -9,7 +9,7 @@ export const theme = {
         tealHover: "rgb(0, 168, 168)",
         tealActive: "rgb(0, 204, 204)",
         black: "rgba(0,0,0,1)",
-        cranberry: "rgb(220, 100, 130)",
+        sienna: "rgb(190, 120, 100)",
     },
     breakpoint: {
         mobile: 767,

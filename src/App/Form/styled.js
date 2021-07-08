@@ -42,7 +42,7 @@ export const Field = styled.input`
     }
 
     &:invalid {
-        background-color: ${({ theme }) => theme.colors.cranberry};
+        background-color: ${({ theme }) => theme.colors.sienna};
     }
 `;
 
@@ -77,14 +77,14 @@ export const Button = styled.button`
     font-size: 26px;
 
     &:hover {
-        ${({ theme }) => theme.colors.tealHover};
+        background-color: ${({ theme }) => theme.colors.tealHover};
     }
 
     &:active {
-        ${({ theme }) => theme.colors.tealActive};
+        background-color: ${({ theme }) => theme.colors.tealActive};
     }
 `;
 
 export const Paragraph = styled.p`
-    color: ${({ theme }) => theme.colors.primaryColor};
+    color: ${({ theme }) => theme.colors.beige};
 `;
