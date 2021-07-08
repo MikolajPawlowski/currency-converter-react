@@ -7,47 +7,47 @@ export const StyledForm = styled.form`
 
 export const Header = styled.h1`
     text-align: center;
-    color: rgb(223, 206, 206);
-    text-shadow: 2px 2px 2px rgb(80, 79, 79);
+    color: ${({ theme }) => theme.colors.swissCoffee};
+    text-shadow: 2px 2px 2px ${({ theme }) => theme.colors.darkGrey};
 `;
 
 export const Fieldset = styled.fieldset`
-    background-color: rgba(0, 0, 0, 0.425);
-    border: 2px solid #ccc;
+    background-color: ${({ theme }) => theme.colors.lightGrey};
+    border: 2px solid ${({ theme }) => theme.colors.grey};
     padding: 10px;
     border-radius: 40px;
     margin: 20px;
-    box-shadow: -1px 1px 2px 0px beige;
+    box-shadow: -1px 1px 2px 0px ${({ theme }) => theme.colors.beige};
 `;
 
 export const Legend = styled.legend`
-    background-color: rgba(0, 128, 128, 0.507);
+    background-color: ${({ theme }) => theme.colors.teal};
     padding: 10px;
-    border: 2px solid beige;
+    border: 2px solid ${({ theme }) => theme.colors.grey};
     border-radius: 30px;
     font-size: 20px;
-    box-shadow: -1px 1px 2px 0px beige;
-    color: beige;
+    box-shadow: -1px 1px 2px 0px ${({ theme }) => theme.colors.beige};
+    color: ${({ theme }) => theme.colors.beige};
 `;
 
 export const Field = styled.input`
-    border: 1px solid #ccc;
+    border: 1px solid ${({ theme }) => theme.colors.grey};
     padding: 10px;
     max-width: 300px;
     width: 100%;
     border-radius: 40px;
 
     &:required {
-        border-color: 2px solid black;
+        border-color: 2px solid ${({ theme }) => theme.colors.black};
     }
 
     &:invalid {
-        background-color: hsl(9, 100%, 90%);
+        background-color: ${({ theme }) => theme.colors.cranberry};
     }
 `;
 
 export const Select = styled.select`
-    border: 1px solid #ccc;
+    border: 1px solid ${({ theme }) => theme.colors.grey};
     padding: 10px;
     max-width: 300px;
     width: 100%;
@@ -69,22 +69,22 @@ export const LabelText = styled.span`
 export const Button = styled.button`
     width: 100%;
     border: none;
-    background-color: rgba(0, 128, 128, 0.507);
-    color: beige;
+    background-color: ${({ theme }) => theme.colors.teal};
+    color: ${({ theme }) => theme.colors.beige};
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0;
     font-size: 26px;
 
     &:hover {
-        background-color: hsl(180, 100%, 33%);
+        ${({ theme }) => theme.colors.tealHover};
     }
 
     &:active {
-        background-color: hsl(180, 100%, 39%);
+        ${({ theme }) => theme.colors.tealActive};
     }
 `;
 
 export const Paragraph = styled.p`
-    color: beige;
+    color: ${({ theme }) => theme.colors.primaryColor};
 `;

@@ -5,5 +5,5 @@ export const StyledClock = styled.p`
     font-weight: lighter;
     text-align: right;
     font-size: 15px;
-    color: beige;
+    color: ${({ theme }) => theme.colors.beige};
 `;

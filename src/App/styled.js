@@ -5,5 +5,5 @@ export const Container = styled.div`
     margin: 20px;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: -2px -1px 2px 0px beige;
+    box-shadow: -2px -1px 2px 0px ${({ theme }) => theme.colors.beige};
 `;
