@@ -42,7 +42,7 @@ export const Field = styled.input`
     }
 
     &:invalid {
-        background-color: ${({ theme }) => theme.colors.sienna};
+        background-color: ${({ theme }) => theme.colors.grey};
     }
 `;
 
@@ -87,4 +87,12 @@ export const Button = styled.button`
 
 export const Paragraph = styled.p`
     color: ${({ theme }) => theme.colors.beige};
+`;
+
+export const Loading = styled.p`
+    color: ${({ theme }) => theme.colors.teal};
+`;
+
+export const Failed = styled.p`
+    color: ${({ theme }) => theme.colors.red};
 `;
