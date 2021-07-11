@@ -47,7 +47,7 @@ export const Form = () => {
             {ratesData.state === "loading"
                 ? (
                     <Loading>
-                        Momencik... <br /> Trwa proces ładowania kursów walutowych...
+                        Momencik... <br /> Trwa proces ładowania kursów walutowych... <br /> <image src="https://miro.medium.com/max/1838/1*e_Loq49BI4WmN7o9ItTADg.gif" />
                     </Loading>
                 )
                 : (
