@@ -90,7 +90,7 @@ export const Paragraph = styled.p`
 `;
 
 export const Loading = styled.p`
-    color: ${({ theme }) => theme.colors.teal};
+    color: ${({ theme }) => theme.colors.sienna};
 `;
 
 export const Failed = styled.p`
