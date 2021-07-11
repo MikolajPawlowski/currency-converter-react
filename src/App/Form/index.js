@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Result } from "./Result";
 import { Clock } from "./Clock";
 import { useApiRatesData } from "./useApiRatesData";
+import { Loader } from "./animation";
 import {
     StyledForm,
     Header,
@@ -47,7 +48,7 @@ export const Form = () => {
             {ratesData.state === "loading"
                 ? (
                     <Loading>
-                        Momencik... <br /> Trwa proces ładowania kursów walutowych... <br /> <image src="https://miro.medium.com/max/1838/1*e_Loq49BI4WmN7o9ItTADg.gif" />
+                        Momencik... <br /> Trwa proces ładowania kursów walutowych... <br /> <Loader />
                     </Loading>
                 )
                 : (
