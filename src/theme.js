@@ -10,6 +10,7 @@ export const theme = {
         tealActive: "rgb(0, 204, 204)",
         black: "rgba(0,0,0,1)",
         sienna: "rgb(190, 120, 100)",
+        red: "rgb(240, 10, 50))",
     },
     breakpoint: {
         mobile: 767,
