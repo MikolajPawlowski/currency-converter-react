@@ -90,9 +90,15 @@ export const Paragraph = styled.p`
 `;
 
 export const Loading = styled.p`
-    color: ${({ theme }) => theme.colors.sienna};
+    color: ${({ theme }) => theme.colors.beige};
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px ${({ theme }) => theme.colors.beige};
 `;
 
 export const Failed = styled.p`
     color: ${({ theme }) => theme.colors.red};
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px ${({ theme }) => theme.colors.red};
 `;
