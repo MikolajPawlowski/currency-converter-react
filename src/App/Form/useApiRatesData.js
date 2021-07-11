@@ -31,7 +31,7 @@ export const useApiRatesData = () => {
             }
         };
 
-        setTimeout(fetchData, 1000);
+        setTimeout(fetchData, 3000);
     }, []);
 
     return ratesData;
