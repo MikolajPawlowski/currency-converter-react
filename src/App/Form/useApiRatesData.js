@@ -6,7 +6,7 @@ export const useApiRatesData = () => {
     });
 
     useEffect(() => {
-        const apiURL = "https://api.exchangerate.host/latest";
+        const apiURL = "https://api.exchangerate.host/latest?base=PLN";
 
         const fetchData = async () => {
             try {
