@@ -90,10 +90,10 @@ export const Paragraph = styled.p`
 `;
 
 export const Loading = styled.p`
-    color: ${({ theme }) => theme.colors.beige};
+    color: ${({ theme }) => theme.colors.darkGreen};
     font-size: 20px;
     text-align: center;
-    text-shadow: 1px 1px ${({ theme }) => theme.colors.beige};
+    text-shadow: 1px 1px ${({ theme }) => theme.colors.darkGreen};
 `;
 
 export const Failed = styled.p`
