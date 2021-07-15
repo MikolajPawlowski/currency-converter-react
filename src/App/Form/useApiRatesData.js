@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export const useApiRatesData = () => {
-    let [ratesData, setRatesData] = useState({
+    const [ratesData, setRatesData] = useState({
         state: "loading",
     });
 
